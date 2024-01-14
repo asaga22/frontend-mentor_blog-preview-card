@@ -30,8 +30,8 @@ Screenshots can be found under `screenshots result` folder.
 
 ### Links
 
-- Solution URL: https://master--singular-crisp-22e3a4.netlify.app/
-- Live Site URL: https://master--singular-crisp-22e3a4.netlify.app/
+- Solution URL: [netlify](https://master--singular-crisp-22e3a4.netlify.app/)
+- Live Site URL: [netlify](https://master--singular-crisp-22e3a4.netlify.app/)
 
 ## My process
 
@@ -50,7 +50,7 @@ I learn centering items using flexbox and creating an active states.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/asaga22)
+- Frontend Mentor - [@asaga22](https://www.frontendmentor.io/profile/asaga22)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
