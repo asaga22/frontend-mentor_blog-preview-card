@@ -1,0 +1,102 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+}
+
+.post-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 7%);
+    padding: 20px;
+    border-radius: 20px;
+    width: 336px;
+    box-shadow: 10px 10px 0px 0px hsl(0, 0%, 7%);
+    -webkit-box-shadow:10px 10px 0px 0px hsl(0, 0%, 7%);
+    -moz-box-shadow: 10px 10px 0px 0px hsl(0, 0%, 7%);
+    cursor: pointer;
+}
+
+.badge {
+    background: hsl(47, 88%, 63%);
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: fit-content;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.card .cover {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.card .categorization {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.card .header .title {
+    font-weight: 800;
+}
+
+.card .body p {
+    color: hsl(0, 0%, 50%);
+    font-size: 16px;
+}
+
+.card .footer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: 600;
+}
+
+.card .writer-photo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.card:hover {
+    box-shadow: 15px 15px 0px 0px hsl(0, 0%, 7%);
+    -webkit-box-shadow:15px 15px 0px 0px hsl(0, 0%, 7%);
+    -moz-box-shadow: 15px 15px 0px 0px hsl(0, 0%, 7%);
+}
+
+.card:hover .title {
+    color: hsl(47, 88%, 63%);
+}
+
+/* For phones */
+@media (max-width: 575.98px) { 
+
+    .card {
+        width: 80%;
+    }
+
+    .card .cover {
+        width: 100%;
+    }
+
+}
+
+/* @media (max-width: 375px) { 
+
+    .card {
+        width: 80%;
+    }
+
+    .card .cover {
+        width: 100%;
+    }
+
+} */
