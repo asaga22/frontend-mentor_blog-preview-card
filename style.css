@@ -46,6 +46,7 @@ body {
 
 .card .header .title {
     font-weight: 800;
+    font-size: 20px;
 }
 
 .card .body p {
@@ -64,6 +65,10 @@ body {
     width: 30px;
     height: 30px;
     margin-right: 10px;
+}
+
+.card .writer-name {
+    font-size: 16px;
 }
 
 .card:hover {
@@ -88,15 +93,3 @@ body {
     }
 
 }
-
-/* @media (max-width: 375px) { 
-
-    .card {
-        width: 80%;
-    }
-
-    .card .cover {
-        width: 100%;
-    }
-
-} */
